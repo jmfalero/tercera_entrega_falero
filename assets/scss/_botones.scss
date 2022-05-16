@@ -1,0 +1,14 @@
+.botoncontacto button { margin: 50px 50px 50px 50px !important;
+    background-image: $colorfondo !important;
+}
+.botoncontacto button {
+    border: map-get($boton, bordes);
+    padding: map-get($boton , padding );
+    color: map-get($boton , color );
+    border-radius: map-get($boton , radio );
+}
+
+button { 
+    @include botonprpieties ($colorfondo,$colornegro,100px,auto);
+    background-image: $colorfondo;
+}

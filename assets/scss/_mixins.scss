@@ -1,0 +1,6 @@
+@mixin botonprpieties ($bc-color,$color,$ancho,$alto){
+    background-color: $bc-color;
+    color: $color;
+    width: $ancho;
+    height: $alto;
+};

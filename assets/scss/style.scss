@@ -1,0 +1,57 @@
+@import "_media";
+@import "_variables";
+@import "_mixins";
+@import "botones";
+
+body {
+    background-image: url(../img/imafondo.jpg) !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;   
+ }  
+ main {
+    width: auto !important;
+    justify-content:space-evenly !important;
+    color: bisque !important;
+    
+} 
+header {
+    background-image: $colorfondo !important;
+}
+
+
+.imagen { 
+    background-color: none !important;
+  }
+
+  .contenedordjs { 
+    text-align: center;
+    
+  }
+  
+  .contenedordjs a {
+     text-decoration: none !important;
+     color:bisque ;
+  }
+
+  nav { 
+       background-image: $colorfondo;
+    
+    }
+.btn { 
+    @extend button;  
+}    
+
+.contenedorbarman a {
+    text-decoration: none !important;
+    color:bisque ;
+}
+ 
+.contenedortragos ul  {
+    list-style: none !important;
+    padding-top: 20px;
+    color:bisque;
+    font-size:x-large;
+}
+
+  

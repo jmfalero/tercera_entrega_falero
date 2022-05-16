@@ -1,0 +1,89 @@
+@media (max-width: 768px) {
+  .fila {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .img-wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+}
+
+.botoncontacto button, .botoncontacto .btn {
+  margin: 50px 50px 50px 50px !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffee00), to(#3b3b45)) !important;
+  background-image: linear-gradient(to bottom, #ffee00, #3b3b45) !important;
+}
+
+.botoncontacto button, .botoncontacto .btn {
+  border: 0;
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+}
+
+button, .btn {
+  background-color: linear-gradient(to bottom, #ffee00, #3b3b45);
+  color: black;
+  width: 100px;
+  height: auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffee00), to(#3b3b45));
+  background-image: linear-gradient(to bottom, #ffee00, #3b3b45);
+}
+
+body {
+  background-image: url(../img/imafondo.jpg) !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+}
+
+main {
+  width: auto !important;
+  -webkit-box-pack: space-evenly !important;
+      -ms-flex-pack: space-evenly !important;
+          justify-content: space-evenly !important;
+  color: bisque !important;
+}
+
+header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffee00), to(#3b3b45)) !important;
+  background-image: linear-gradient(to bottom, #ffee00, #3b3b45) !important;
+}
+
+.imagen {
+  background-color: none !important;
+}
+
+.contenedordjs {
+  text-align: center;
+}
+
+.contenedordjs a {
+  text-decoration: none !important;
+  color: bisque;
+}
+
+nav {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffee00), to(#3b3b45));
+  background-image: linear-gradient(to bottom, #ffee00, #3b3b45);
+}
+
+.contenedorbarman a {
+  text-decoration: none !important;
+  color: bisque;
+}
+
+.contenedortragos ul {
+  list-style: none !important;
+  padding-top: 20px;
+  color: bisque;
+  font-size: x-large;
+}
+/*# sourceMappingURL=style.css.map */
